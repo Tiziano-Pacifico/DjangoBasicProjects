@@ -10,5 +10,5 @@ def home(request):
         'tasks': tasks,
         'completed_tasks': completed_tasks,
     }
-    return render(request, 'home-todo.html', context)
+    return render(request, 'home_todo.html', context)
 
